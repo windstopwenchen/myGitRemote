@@ -1,0 +1,106 @@
+.wrapper .screen-main{
+	width: 1190px;
+	height: 632px;
+	
+	margin: 0 auto;
+}
+
+.wrapper .screen-main .main-left{
+	width: 890px;
+	height: 632px;
+	/*border: 1px solid black;*/	
+	float: left;
+
+}
+
+.wrapper .screen-main .main-left .main-left-inner{
+	width: 890px;
+	height: 522px;
+	/*border: 1px solid green;*/
+}
+
+.wrapper .screen-main .main-left .main-left-inner .inner-left{
+	width: 190px;
+	height: 522px;
+	border: 1px solid #f40;
+	float: left;
+	border-top: none;
+	margin-top: 2px;
+}
+.wrapper .screen-main .main-left .main-left-inner .inner-left ul li{
+	height: 32px;
+	width: 145px;
+	padding-left: 25px;
+	padding-right: 20px;
+	color: #666;
+	position: relative;
+}
+
+.wrapper .screen-main .main-left .main-left-inner .inner-left ul li a{
+	color: #666666;
+	font-size: 16px;
+	font-weight: 400;
+	cursor: pointer;
+	line-height: 32px;
+}
+.wrapper .screen-main .main-left .main-left-inner .inner-left ul li span{
+	display: inline-block;
+	width: 7px;
+	height: 10px;
+	border: 1px solid black;
+	position: absolute;
+	top: 50%;
+	right: 10px;
+	margin-top: -4px;
+	background-image: url(../img/yjt.png);
+	background-size: 100% 100%;
+}
+.wrapper .screen-main .main-left .main-left-inner .inner-left ul li:hover{
+	background-color: #Ffe4dc;
+}
+
+.wrapper .screen-main .main-left .main-left-inner .inner-middle{
+	width: 520px;
+	height: 522px;
+	/*border: 1px solid red;*/
+	float: left;
+}
+
+.wrapper .screen-main .main-left .main-left-inner .inner-middle .pic-box{
+	padding: 8px;	
+}
+
+.wrapper .screen-main .main-left .main-left-inner .inner-middle .pic-mall{
+	width: 520px;
+	height: 230px;
+	padding: 0px 8px;	
+}
+
+.wrapper .screen-main .main-left .main-left-inner .inner-middle .pic-mall span{
+	font-size: 12px;
+	color: #666;
+}
+
+.wrapper .screen-main .main-left .main-left-inner .inner-right{
+	float: left;
+	width: 160px;
+	height: 522px;
+	padding: 8px;
+}
+.wrapper .screen-main .main-left .main-left-inner .inner-right .hot{
+	font-size: 12px;
+	color: #a1a1a1;
+	margin-top: 10px;
+}
+.wrapper .screen-main .main-left .main-left-bottom{
+	width: 890px;
+	height: 100px;
+	background-color: red;
+}
+
+/*.wrapper .screen-main .main-right{
+	width: 290px;
+	height: 632px;
+	border: 1px solid black;
+	float: left;
+}*/
